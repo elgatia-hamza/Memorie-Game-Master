@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(27, 27, 27) 0px,
+    rgb(27, 27, 27) 97px,
+    rgb(24, 24, 24) 97px,
+    rgb(24, 24, 24) 194px,
+    rgb(20, 20, 20) 194px,
+    rgb(20, 20, 20) 291px
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Courier, serif;
+}
+.container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title-bar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  height: auto;
+  font-size: 4.4em;
+  color: #33ff00;
+  font-family: "VT323", Courier, serif;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+.author {
+  width: 80%;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.body-game {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000;
+  border: #33ff00 solid 5px;
+}
+
+h3 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+  margin: 20px 0;
+}
